@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tit_reto1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: rgb(20, 126, 91);
+}
+
+.sub_reto1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color: rgb(9, 69, 49);
+}
+
+.cajaimagen_1 {
+    padding-top: 50px;
+}
+
+.cajaimagen_1 img {
+    width: 100%;
+}
+
+.btn-reto1 {
+    background-color: rgb(50, 31, 102);
+}
+
+.btn-reto92 {
+    background-color: rgb(9, 113, 42);
+    border: none;
+}
+
+.btn-reto91 {
+    background-color: rgb(11, 74, 190);
+    border: none;
+}
+
+header {
+    background-color: rgb(43, 155, 117);
+    
+}
+
+footer {
+    background-color: #2a1749;
+    height: 50px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.freto8 {
+    background-color: #2a1749;
+    margin-top: 0px!important;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.icono {
+    font-size: 48px;
+    color: rgb(9, 69, 49);
+}
+
+.freto2 {
+    position: fixed;
+    bottom:0; 
+    width: 100%;
+}
+
+.freto6 {
+    margin-top: 0px;
+}
+
+.bgcolor1 {
+    background-color: rgb(175, 234, 214);
+}
+
+.bgcolor2 {
+    background-color: rgb(154, 128, 224);
+}
+
+.bgcolor3 {
+    background-color: rgb(224, 128, 187);
+}
+
+.bgcolor9 {
+    background-color: rgb(206, 209, 212);
+}
+
+.banner6 {
+    background-image: url("../imagenes/banner-min.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    background-color:#2a1749;
+    background-blend-mode: luminosity;
+    
+}
+
+.bannerindex {
+    background-image: url("../imagenes/bannerprincipal.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    background-color:#2a1749;
+    background-blend-mode: luminosity;
+    
+}
+
+.banner8 {
+    background-image: url("https://grupotsunami.com/wp-content/uploads/2023/09/bannerFogo-min.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.tit_reto8 {
+    color: white;
+    font-family: serif;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.tit_index {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.p8 {
+    font-size: 16px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-primary6 {
+    background-color: rgb(50, 31, 102)!important;
+}
+
+.btn8 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 0 0 0 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 25px;
+}
+
+/* Blur */
+.hover07 figure img {
+	-webkit-filter: blur(3px) grayscale(100%);
+	filter: blur(3px) grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover07 figure:hover img {
+	-webkit-filter: blur(0) grayscale(0);
+	filter: blur(0) grayscale(0);
+}
+
+.img1 {
+    height: 360px !important;
+}
+
+.img6 {
+    height: 360px !important;
+    width: 240px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-reto1 {
+        width: 100%;
+    }
+    footer {
+        height: 100px;
+    }
+    .freto2 {
+        position: relative;
+    }
+    footer {
+        margin-top: 0px;
+    }
+  }
