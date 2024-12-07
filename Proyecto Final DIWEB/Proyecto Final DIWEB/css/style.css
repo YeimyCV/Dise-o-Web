@@ -1,0 +1,328 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+header {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 44% 86%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 44% 86%, 0% 100%);
+  background-color: #04233c;
+  color: #fff;
+  height: 80px;
+}
+header .fixed-top {
+  background-color: #04233c;
+  color: #fff;
+  height: 80px;
+}
+@media only screen and (max-width: 600px) {
+  header {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+}
+
+.banner {
+  background-image: url(../img/banner2.webp);
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+          clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.banner2 {
+  background-image: url(../img/banner1.webp);
+  -webkit-clip-path: polygon(0 0, 100% 24%, 100% 100%, 0% 77%);
+          clip-path: polygon(0 0, 100% 24%, 100% 100%, 0% 77%);
+  background-attachment: fixed;
+  background-color: #c29b6c;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  background-blend-mode: luminosity;
+}
+
+.description h2 {
+  font-size: 52px;
+  font-family: "Playfair Display", serif;
+  color: #04233c;
+}
+.description h3 {
+  font-size: 36px;
+  font-family: "Roboto Condensed", serif;
+  color: #586c84;
+}
+.description p {
+  font-size: 20px;
+}
+.description img {
+  -webkit-clip-path: circle(39% at 50% 50%);
+          clip-path: circle(39% at 50% 50%);
+  width: 360px;
+  height: 240px;
+  margin-left: 300px;
+}
+@media only screen and (max-width: 600px) {
+  .description img {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.division1 {
+  -webkit-clip-path: polygon(0 40%, 100% 0%, 100% 60%, 0% 100%);
+          clip-path: polygon(0 40%, 100% 0%, 100% 60%, 0% 100%);
+  background-color: #586c84;
+  width: 100%;
+  height: 250px;
+}
+
+.iconografia h2 {
+  font-size: 52px;
+  font-family: "Roboto Condensed", serif;
+  color: #586c84;
+}
+.iconografia .icono1 {
+  background-color: #04233c;
+  -webkit-clip-path: circle(45% at 50% 50%);
+          clip-path: circle(45% at 50% 50%);
+  width: 90px;
+  padding: 25px;
+  color: #fff;
+  font-size: 48px;
+}
+.iconografia .icono2 {
+  background-color: #586c84;
+  -webkit-clip-path: circle(45% at 50% 50%);
+          clip-path: circle(45% at 50% 50%);
+  width: 90px;
+  padding: 20px;
+  color: #fff;
+  font-size: 48px;
+}
+.iconografia .icono3 {
+  background-color: #c29b6c;
+  -webkit-clip-path: circle(45% at 50% 50%);
+          clip-path: circle(45% at 50% 50%);
+  width: 90px;
+  padding: 25px;
+  color: #fff;
+  font-size: 48px;
+}
+
+footer {
+  -webkit-clip-path: polygon(0% 0%, 48% 34%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 48% 34%, 100% 0%, 100% 100%, 0% 100%);
+  background-color: #586c84;
+  height: 120px;
+  color: #fff;
+  text-align: center;
+  padding-top: 15px;
+}
+@media only screen and (max-width: 600px) {
+  footer {
+    height: 195px;
+  }
+}
+
+.socialMedia {
+  color: #586c84;
+  font-size: 32px;
+  padding-right: 8px;
+}
+.socialMedia a {
+  color: #fff !important;
+  font-size: 20px;
+}
+
+.container-botonws {
+  position: fixed;
+  z-index: 1000;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 50px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+}
+.container-botonws:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container-botonws .botonws {
+  width: 60px;
+  transition: ease 1s;
+}
+
+.tarjetas h2 {
+  font-family: "Playfair Display", serif;
+  color: #04233c;
+  font-size: 40px;
+}
+.tarjetas .card-body {
+  height: 240px;
+  width: 190px;
+}
+@media only screen and (max-width: 600px) {
+  .tarjetas .card-body {
+    width: 100%;
+  }
+}
+.tarjetas .btn {
+  background-color: #586c84;
+}
+.tarjetas .card {
+  border: none;
+}
+
+.video {
+  border-radius: 25px;
+}
+.video h2 {
+  font-family: "Playfair Display", serif;
+  color: #04233c;
+  font-size: 40px;
+}
+.video h3 {
+  font-family: "Roboto Condensed", serif;
+  color: #586c84;
+}
+
+/* Contenedor principal de la galería */
+.container-gallery {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: auto; /* Permite que el contenedor se ajuste al contenido */
+  flex-wrap: wrap; /* Permite que las cajas se ajusten en filas */
+}
+
+/* Estilos de cada caja (imagen + título) */
+.box {
+  flex: 1 1 29.333%; /* Tres columnas por defecto */
+  overflow: hidden;
+  transition: 0.7s;
+  margin: 0 2%; /* Espaciado entre las cajas */
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  line-height: 0;
+  position: relative;
+}
+
+.box > img {
+  width: 100%;
+  height: auto; /* Ajusta la altura de la imagen según el contenedor */
+  -o-object-fit: cover;
+     object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+  transition: 0.7s;
+}
+
+.box > span {
+  font-size: 3.8vh; /* Tamaño de la fuente basado en la altura de la ventana */
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+  position: absolute;
+  bottom: 10px; /* Asegura que el texto esté en la parte inferior */
+  width: 100%;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Efecto hover: cuando se pasa el mouse sobre las cajas */
+.box:hover {
+  flex: 1 1 50%; /* En pantallas más grandes, se muestra en dos columnas */
+}
+
+.box:hover > img {
+  transform: scale(1.1); /* Aumenta ligeramente la imagen en hover */
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+  .container-gallery {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .box {
+    flex: 1 1 100%; /* Ocupa el 100% del ancho en pantallas pequeñas */
+    margin: 10px 0; /* Espaciado vertical entre las cajas */
+  }
+  .box > img {
+    height: 100%; /* La imagen ocupa todo el espacio vertical */
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .box > span {
+    font-size: 5vh; /* Aumentamos el tamaño de la fuente en pantallas pequeñas */
+    height: auto;
+    line-height: 1.5;
+    padding: 15px;
+  }
+  .box:hover {
+    flex: 1 1 100%; /* El hover ocupa todo el ancho en pantallas pequeñas */
+  }
+}
+/* Estilos para pantallas medianas (tabletas) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container-gallery {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .box {
+    flex: 1 1 45%; /* Dos columnas en pantallas medianas */
+    margin: 10px;
+  }
+  .box > img {
+    height: 100%; /* Ajusta la imagen al 100% de la altura disponible */
+  }
+  .box > span {
+    font-size: 4vh; /* Ajustamos la fuente para pantallas medianas */
+  }
+  .box:hover {
+    flex: 1 1 45%; /* El hover sigue mostrando dos columnas */
+  }
+}
+.h2Contacto {
+  font-size: 52px;
+  font-family: "Playfair Display", serif;
+  color: #586c84;
+}
+
+.h3Contacto {
+  font-size: 36px;
+  font-family: "Roboto Condensed", serif;
+  color: #c29b6c;
+}
+
+@media only screen and (max-width: 600px) {
+  .contacto {
+    overflow-x: scroll;
+  }
+}
+
+.faqs h2 {
+  font-size: 52px;
+  font-family: "Playfair Display", serif;
+  color: #586c84;
+}
+
+.faqimg {
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  width: 460px;
+  height: 350px;
+}
+
+.btn-primary {
+  background-color: #c29b6c !important;
+  border-color: #c29b6c !important;
+}
+
+.carusel {
+  width: 100%;
+  height: 600px;
+}/*# sourceMappingURL=style.css.map */
